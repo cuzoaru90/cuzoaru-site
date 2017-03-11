@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script src= "scripts/site.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <section id = "navigation" style = "background: #343c44; height: 30px;">
+      <ul style = "margin-left: 40%; margin-top: 1px;">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </section>
+    
+    <!-- Profile Section -->
+    <section id = "home" style = "padding: 10px; background: url(images/chicago.jpg); background-size: 100% auto; background-position: 27% 10%;">
+
+      <div class = "header"> 
+        <h1 style = "font-size: 2em">Chuck Uzoaru</h1>
+        <p> Full Stack Web Developer</p>
+      </div>
+
+      <!-- Info, attempted to DRY up slices with JavaScript -->
+      <div class = "profile-container">
+        <div id = "portrait"></div>
+          <div id = "skills">
+          <article class = "slice"><img src="images/angularjs.png" height="30"/> Angular JS
+          </article>
+          <article class = "slice"> <img src="images/ruby.png" height="30"/> Ruby</article>
+          <article class = "slice"> <img src="images/rails.png" height="30"/> Rails</article>
+          <article class = "slice"> <img src="images/javascript.png" height="30"/> HTML5, CSS3, JQuery</article>
+          <article class = "slice"><img src="images/UIC.png" height="30"/> University of Illinois at Chicago graduate</article>
+          </div>
+
+        <div id = "bottom">
+          <article class = "slice" style = "text-align:left;">
+          <img src="images/UIC.png" height="30">University of Illinois at Chicago &nbsp; &nbsp; B.S. in Computer Science, 2013</article>
+
+          I've been inspired to take the web development career path after seeing how real world applications function. All my work is done from scratch, and I am very excited to learn more tools to streamline and enhance the visual design of projects during my journey. For my projects, I was solely responsible for all back-end and front-end design, plus unit testing. 
+        </div>
+
+      </div> <!-- End of Info -->
+
+    </section> <!-- End of Profile Section -->
+    
+    <!-- Short section -->
+    <section id = "about"><h2>Web projects are below. </h2></section>
+    
+    <!-- Projects/Work section -->
+    <section id = "works">
+      
+      <!-- Tried some funky JavaScript effects here -->
+      <div class = "work-container">
+        <article class="work" id = "name">
+          <p>&nbsp;</p>
+          <p>Name</p>
+        </article>
+ 
+        <a href= "https://shrouded-sea-6938.herokuapp.com/"</a><article class= "work" id = "bloccit"></article></a>
+ 
+        
+        <article class="work" id = "description"><p>&nbsp;</p>Description</article>
+        <article class="work" id = "world"></article>
+        <article class="work" id = "field" style="visibility:hidden;"> </article>
+        <article class="work" id = "to-do-list"></article>
+        <article class="work" id = "languages"></article>
+    
+        <a href = "https://chucku-bloc-jams-angular.herokuapp.com"</a><article class="work" id = "blocjams"></article></a>
+    
+        <article class="work"></article>
+    
+      </div> <!-- End of effects -->
+
+    </section>
+    
+    <!-- Contact section -->
+    <section id = "contact">
+      <h1>Contact me by email: <a href="mailto:cuzoaru90@gmail.com" target="_top">cuzoaru90@gmail.com</a></h1>
+    </section>
+
+</body>
+
+</html>

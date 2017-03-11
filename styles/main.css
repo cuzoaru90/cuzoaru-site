@@ -1,0 +1,200 @@
+/*==============================
+
+Style Sheet for Personal Website
+
+Table of Contents:
+
+01. General HTML Tag Styles
+02. Styles for Profile/Info Section
+03. Styles for Work Section (Projects) 
+04. Contact Area 
+
+=================================*/
+
+
+
+/*==============================
+
+== 01. General HTML Tag Styles ==
+
+=================================*/
+body{
+	height:100%;
+	width: 100%;
+	margin: 0;		
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	width: 50%; 
+  position: absolute; 
+	z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li > a {
+  display: block;
+  color: red;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: small-caps;
+  text-align: center;
+  padding: 8px 10px;
+	border: 1px yellow thick;
+  text-decoration: none;
+}
+
+section{
+	padding: 15px;
+}
+
+section a{
+	text-decoration: none;
+	color: white;
+}
+
+article{
+	line-height: 20px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	background-color:
+}
+
+article:hover{
+	border:1px solid blue;
+}
+
+div.desc {
+  text-align: center;
+	background: white;
+	width: 100%;
+}
+
+img{
+	vertical-align: middle;
+}
+
+#home{
+  background-position: center bottom;
+}
+
+/*==============================
+
+== 02. Styles for Profile/Info Section ==
+
+=================================*/
+
+#about{
+	text-align: center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 12px;
+	background: orange;
+} 
+
+.header{
+	text-align: center;	
+	margin-top: 100px;
+} 
+
+section .profile-container{
+	margin: 0 auto;
+	top: 10%;
+	width: 60%;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	border: 2px orange solid;
+	border-radius: 5px;
+	margin-bottom: 60px;
+}
+
+#portrait{
+	width: 50%;
+	height: 50%;
+	background: url(../images/myself.jpg) no-repeat;	
+	background-size: cover;
+	float: left;	
+}
+
+#skills{
+	height: 50%;
+	width: 50%;	
+	float: left;
+	background: #B6BDB5
+}
+
+#bottom{
+	height: 50%;
+	width: 100%;	
+	margin-bottom: 40px;
+	display: inline-block;
+	background: #46D2D2;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.slice{
+	height: 25%;
+	border: 1px orange solid;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 300%;
+}  
+
+/*==============================
+
+== 03. Styles for Work Section (Projects) ==
+
+=================================*/
+
+section .work-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-bottom: 60px;
+	width: 80%;
+	height: 400px;
+	position: relative;
+	text-align: center;
+}
+
+#works{
+	background: gray;	
+}
+
+.work {
+  float:left;
+  width:33%;
+  height:33%;
+  background: white;
+	background-size: cover;
+  margin:0px;
+  border: 1px solid red;
+}
+
+#work-description{
+	margin-top: 70%;
+	margin-left: 35%;
+	height: 20%;
+	width: 30%;
+	text-align: center;
+	display: none;
+	background: white;
+	color: black;
+}
+
+/*==============================
+
+== 04. Contact Area ==
+
+=================================*/
+
+#contact{
+	text-align: center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	background: blue;
+	color: white;		
+}
