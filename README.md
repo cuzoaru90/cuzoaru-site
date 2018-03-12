@@ -11,3 +11,6 @@ The source code serves an important purpose, which is to demonstrate my coding s
 
 ## Reason for updating
 This is old work from 2016. I don't want this repo to be bumped (and highly visible), but I did show this link to some people. Therefore, the contents of the repo should contain what I intended to show. I've come some way from this...
+
+EDIT: I updated the gitignore, so you can actually get the images now. That's what was causing the problems...
+I don't like having to bump this, but I learned something useful from it at least!
