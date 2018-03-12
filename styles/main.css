@@ -170,7 +170,7 @@ section .work-container{
   width:33%;
   height:33%;
   background: white;
-	background-size: cover;
+  background-size: cover;
   margin:0px;
   border: 1px solid red;
 }
@@ -185,6 +185,8 @@ section .work-container{
 	background: white;
 	color: black;
 }
+
+
 
 /*==============================
 
