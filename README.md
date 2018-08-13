@@ -1,16 +1,9 @@
-# Chuck Uzoaru’s Personal Web site
+# Raw HTML, CSS, and JavaScript
 
-This website is written entirely from scratch with raw HTML, CSS, JavaScript, and additional assets. The project is one of many that I created for web design experience. The code was uploaded to the web with premium hosting, but it has been taken down. I plan to replace it with a Modified WordPress template to make it look better.
+## Clarification
+I am doing a README update, because I need to make this clear. The code in this repo is NOT hosted at www.chuckuzoaru.com. 
+This is code written in 2016 entirely from scratch without any boilerplates or templates. It is a primitive version that has not been hosted in quite some time.
 
-## Purpose
+For the current site, you will find that in the GitHub repo named current-site. It uses a professional base template that I have heavily modified for the sake of quality work. My actual current site (at chuckuzoaru.com) has been hosted and modified over the years. I've been focusing entirely on basic front-end development and Java programming throughout the year.
 
-The site is a portfolio hub that I can use to showcase my skills as a developer and archive projects that I create on the side. 
-
-The source code serves an important purpose, which is to demonstrate my coding style. I am very dedicated to writing effective code that follows proper software engineering principles.
-
-
-## Reason for updating
-This is old work from 2016. I don't want this repo to be bumped (and highly visible), but I did show this link to some people. Therefore, the contents of the repo should contain what I intended to show. I've come some way from this...
-
-EDIT: I updated the gitignore, so you can actually get the images now. That's what was causing the problems...
-I don't like having to bump this, but I learned something useful from it at least!
+I recognize that the name of this repo may have caused confusion.
